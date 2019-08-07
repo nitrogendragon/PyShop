@@ -1,2 +1,7 @@
 to run the server from the terminal: python manage.py runserver
 to make a new app: python mange.py startapp name (of app)
+
+updating database sqlitebrowser for sqlite3 file: in terminal: python manage.py makemigrations
+applying migrations: python manage.py migrate
+setting up superuser: python manage.py createsuperuser
+    then set username,
