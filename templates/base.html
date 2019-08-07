@@ -12,8 +12,11 @@
     <title>Hello, world!</title>
 </head>
 <body>
+<!-- Navigation Panel at the top of the site for quickly accessing higher level pages -->
 <nav class="navbar navbar-light bg-light">
-    <a class="navbar-brand" href="#">PyShop</a>
+    <a class="navbar-brand" href="http://127.0.0.1:8000/Home">PyShop</a>
+    <a class="navbar-products" href="http://127.0.0.1:8000/products">Products</a>
+    <a class="navbar-new" href="new">New</a>
 </nav>
 <div class="container">
         {% block content %}
