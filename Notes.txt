@@ -1,0 +1,2 @@
+to run the server from the terminal: python manage.py runserver
+to make a new app: python mange.py startapp name (of app)
